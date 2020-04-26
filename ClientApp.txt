@@ -1,0 +1,4 @@
+npm install -g @angular/cli 
+ng build
+Cannot find module '@angular-devkit/build-angular/package.json
+npm install @angular-devkit/build-webpack
