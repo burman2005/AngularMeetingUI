@@ -1,0 +1,9 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand text-white" *ngIf="userDetails">Welcome {{userDetails.fullName}}</a>
+  <a class="navbar-brand text-white">Meeting Management System</a>
+  <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
+</nav>
+
+<div class="container">
+  <app-meeting-details></app-meeting-details>
+</div>

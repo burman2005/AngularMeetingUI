@@ -1,0 +1,12 @@
+<table class="table table-hover">
+  <tr *ngFor="let mt of service.list">
+    <td (click)="populateForm(mt)">{{mt.MeetingSubject}}</td>
+    <td (click)="populateForm(mt)">{{mt.Attendees}}</td>
+    <td (click)="populateForm(mt)">{{mt.MeetingAgenda}}</td>
+    <td (click)="populateForm(mt)">{{mt.MeetingDate | date:'M/d/yy, h:mm a'}}</td>
+    <td>
+      <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(mt.MeetingId)">Delete</i>
+    </td>
+  </tr>
+</table>
+
