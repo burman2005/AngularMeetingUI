@@ -2,3 +2,13 @@ npm install -g @angular/cli
 ng build
 Cannot find module '@angular-devkit/build-angular/package.json
 npm install @angular-devkit/build-webpack
+
+1. UI
+http://localhost:55000/user/login
+
+2. API
+http://localhost:44000/api/meetings
+
+
+
+
