@@ -1,13 +1,24 @@
-npm install -g @angular/cli 
-ng build
-Cannot find module '@angular-devkit/build-angular/package.json
+=================
+npm install -g @angular/cli
 npm install @angular-devkit/build-webpack
 
+=================
 1. UI
+ng serve --port 55000
+
 http://localhost:55000/user/login
 
 2. API
 http://localhost:44000/api/meetings
+=================
+
+ng -version
+
+Windows_NT 10.0.18363
+Angular CLI: 7.3.9
+Node: 13.10.1
+OS: win32 x64
+Angular: 7.0.4
 
 
 
